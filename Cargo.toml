@@ -3,12 +3,10 @@ resolver = "2"
 
 members = [
     "game1",
-    "game2",
-    "game3",
 ]
 
-[workspace.dependencies.soroban-sdk]
-soroban-sdk = "0.8.4"
+[workspace.dependencies]
+soroban-sdk = "20.0.0"
 
 [profile.release]
 opt-level = "z"
